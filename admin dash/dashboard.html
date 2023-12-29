@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+
+<body>
+    <!--============================================================== Navigation =================================================================================-->
+    <div class="Comtainer">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="">
+                        <span class=""><img class="logo" src="COCOBOD-Logo-Icon.png" alt=""></span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="home-outline"></ion-icon>
+                        </span>
+                        <span class="title">Dashboard</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <span class="icon">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </span>
+                        <span class="title">Schedule</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <span class="icon">
+                            <ion-icon name="clipboard-outline"></ion-icon>
+                        </span>
+                        <span class="title">Notice</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <span class="icon">
+                            <ion-icon name="time-outline"></ion-icon>
+                        </span>
+                        <span class="title">Activities</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <span class="icon">
+                            <ion-icon name="lock-closed-outline"></ion-icon>
+                        </span>
+                        <span class="title">Password Reset</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <span class="icon">
+                            <ion-icon name="help-outline"></ion-icon>
+                        </span>
+                        <span class="title">Help</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <span class="icon">
+                            <ion-icon name="log-out-outline"></ion-icon>
+                        </span>
+                        <span class="title">Sign Out</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!--============================= Main ==================-->
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+
+                <div class="search">
+                    <label>
+                        <input type="text" placeholder="Search here">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </label>
+                </div>
+
+                <div class="user">
+                    <img src="imgs/928bd3bf-873a-487d-8202-19a395f7a1ff.jpeg" alt="">
+                </div>
+            </div>
+
+            <!-- =================== Cards ==================-->
+            <div class="cardBox">
+                <div class="card">
+                    <div>
+                        <div class="numbers">100</div>
+                        <div class="cardName">Accounts</div>
+                    </div>
+
+                    <div class="iconBx">
+                        <ion-icon name="people-outline"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">10</div>
+                        <div class="cardName">Account Request</div>
+                    </div>
+
+                    <div class="iconBx">
+                        <ion-icon name="person-add-outline"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">2</div>
+                        <div class="cardName">Password Request</div>
+                    </div>
+
+                    <div class="iconBx">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">1</div>
+                        <div class="cardName">Help Request</div>
+                    </div>
+
+                    <div class="iconBx">
+                        <ion-icon name="chatbox-ellipses-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <!-- =================== Requests ======================= -->
+            <div class="requests">
+                <div class="recentRequests">
+                    <div class="cardHeader">
+                        <h2>Account Requests</h2>
+                        <a href="#" class="btn">View All</a>
+                    </div>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Fullname</td>
+                                <td>Username</td>
+                                <td>Password</td>
+                                <td>Status</td>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Dr Issah G Nbehedimah Ahmed</td>
+                                <td>A.ISSAH</td>
+                                <td>password123</td>
+                                <td><span class="status active">Active</span></td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <td>Mr Aaron Gordon</td>
+                                <td>G.AARON</td>
+                                <td>password123</td>
+                                <td><span class="status pending">Pending</span></td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <td>Mr John Cena</td>
+                                <td>C.JOHN</td>
+                                <td>password123</td>
+                                <td><span class="status rejected">Rejected</span></td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <td>Mr John Annan</td>
+                                <td>A.JOHN</td>
+                                <td>password123</td>
+                                <td><span class="status active">Active</span></td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <td>Mr Lord Kwesi</td>
+                                <td>L.KWESI</td>
+                                <td>password123</td>
+                                <td><span class="status pending">Pending</span></td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <td>Mr Samuel Annam</td>
+                                <td>S.ANNAM</td>
+                                <td>password123</td>
+                                <td><span class="status rejected">Rejected</span></td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <td>Mr Yahaya Yakubu</td>
+                                <td>Y.YAHAYA</td>
+                                <td>password123</td>
+                                <td><span class="status active">Active</span></td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <td>Mr Nana Kay</td>
+                                <td>K.NANA</td>
+                                <td>password123</td>
+                                <td><span class="status active">Active</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- ================ Recent Users ================== -->
+                <div class="recentUsers">
+                    <div class="cardHeader">
+                        <h2>Recent Users</h2>
+                    </div>
+
+                    <table>
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="imgs/60039275-young-male-cartoon-profile-vector-illustration-graphic-design.jpg" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>A.ISSAH <br> <span>Doctor</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="imgs/60039275-young-male-cartoon-profile-vector-illustration-graphic-design.jpg" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>G.AARON <br> <span>ISU</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="imgs/60039275-young-male-cartoon-profile-vector-illustration-graphic-design.jpg" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>C.JOHN <br> <span>Nursing</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="imgs/60039275-young-male-cartoon-profile-vector-illustration-graphic-design.jpg" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>A.JOHN <br> <span>Security</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="imgs/60039275-young-male-cartoon-profile-vector-illustration-graphic-design.jpg" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>L.KWESI <br> <span>Security</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="imgs/60039275-young-male-cartoon-profile-vector-illustration-graphic-design.jpg" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>S.ANNAM <br> <span>Stores</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="imgs/60039275-young-male-cartoon-profile-vector-illustration-graphic-design.jpg" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Y.YAHAYA <br> <span>Claims</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="imgs/60039275-young-male-cartoon-profile-vector-illustration-graphic-design.jpg" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>K.NANA <br> <span>ISU</span></h4>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =================================================================== Scripts ============================================================================= -->
+    <script src="dashboard.js"></script>
+
+    <!--==================================================================== ionicons =============================================================================-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
